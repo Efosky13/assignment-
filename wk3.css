@@ -1,0 +1,33 @@
+body {
+    background-color:rgb(255, 255, 255);}
+    
+
+section {
+    background-color: rgb(245, 232, 253);
+}
+ 
+table {
+background-color: rgb(245, 232, 253);
+}
+
+form{
+    background-color:rgb(245, 232, 253);
+}
+
+body{
+    width: 80%; 
+    margin: auto;
+}
+:hover>p:nth-last-child(2){
+    background-color:rgb(226, 201, 231)
+} 
+h2{
+    background-color:rgb(218, 182, 240);width: 300px;;
+}
+.I:hover{
+    background-color:red ;
+    color: rgb(226, 161, 62);
+}
+h1{
+     background-color: (218, 182, 240)
+}

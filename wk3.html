@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio </title>
+    <link rel="stylesheet" href="wk3.css">
+    <link rel="shortcut icon" href="../wk2/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+<h1> MY PORTFOLIO</h1>
+    <nav>
+        <ul>
+            <li><a href="#ONE">ABOUT ME</a></li>
+            <li><a href="#TWO">ASSIGNMENT</a></li>
+            <li><a href="#THREE">SKILLS</a> </li>
+            <li><a href="#FOUR">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <section class="First" id="ONE">
+      <h2> ABOUT ME </h2>
+      <P> My Name is Amenghawon Efosa David I am a Nigerian, from Edo state Oredo local govement but guess what never been there before.
+        I live in surulere, am a male done with secondary school seeking admission into the university but am studying a course
+    at univelcity, Web development well that all you can know about me for now beacuse of securty reasons </P>
+    <h2> INTERESTS</h2>
+    <ul>
+        <li>Music</li>
+        <li>Creativity</li>
+        <li>Football</li>
+        <li>Technology</li>
+    </ul>
+    <h2>TO CONTACT ME</h2>
+    <ul>
+        <li><a href= "mailto:davidefo1313@gmail.com ">To Email Me and get more information</a></li>
+        <li><a href="tel:08159601919">To call me for more infomation</a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=8159601919">hit me up on whatsapp</a></li>
+    </ul>
+
+</section>
+
+
+<!-- table>(thead>tr>th*3)+(tbody>(tr>th+td*2)*5)+(tfoot>tr>td -->
+
+<table border="3" width="205" id="TWO">
+    
+    <thead>
+        
+        <tr>
+            <th>TOPICS</th>
+            <th>DESCRIPTION</th>
+            <th>IMAGES</th>
+        </tr>
+         
+    </thead>
+    <tbody>
+        <tr >
+            <th>Interactive Travel Guide</th>
+            <td>This was an assignment that brought together all we had learnt so far which include 
+                navigation,tables,videos,pictures,linking web videos and many more.
+            </td>
+            <td><img src="./interactive screenshot.png" width="500"></td>
+        </tr>
+        <tr>
+            <th>Marking Letter</th>
+            <td>In this assignment we learnt how to mark up letters using the basic html elements in order to get used to them in order to increase our Skill 
+            </td>
+            <td><img src="./letter screenshot.png" width="500"></td>
+        </tr>
+        <tr>
+            <th>Geopolitical Zones</th>
+            <td>In this execrise we learnt how to use the function of listing and how to use shortcut to get the amount of list we need instead of
+                doing it one at a time 
+            </td>
+            <td><img src="./Geopolitical screeenshot.png" width="500"></td>
+        </tr>
+        <tr>
+            <th>Forms of HTML</th>
+            <td> In this we how to creat forms inwhich viwers can fill with a guide on what to input in each space and also to uploade files in the form </td>
+            <td><img src="./forms screenshot.png" width="500"></td>
+        </tr>
+       
+    </tbody>
+    
+</table>
+
+<section class="Second">
+    <h2 id="THREE">SKILLS </h2>
+    <ul>
+        <li>Graphic Design(corel draw)</li>
+        <li>Driving</li>
+        <li>Playing Paino</li>
+        <li>Making money</li>
+        <li>html </li>
+    </ul>
+</section>
+ 
+<form>
+    <h2 id="FOUR"> CONTACT US </h2>   
+    <fieldset>
+        <legend> personal data</legend>
+        <ul>
+            <li> <label for="fname">First name</label>
+                 <input type="text" name="text" id="fname" required placeholder="your first name">
+                
+            </li><br>
+            <li>
+                <label for="sname"> Surname</label>
+                <input type="text" name="text" id="sname" required placeholder="your surname">
+            </li><br>
+            <li>
+                 <label for="email">Email Address</label>
+                 <input type="email" name="email" id="email" required placeholder="example@email.com">
+            </li><br>
+            <li>
+                <label for="phone"> Phone Number</label>
+                <input type="tel" name="tel" id="Phone" placeholder="+234***********">
+            </li><br>
+            <li>
+                <label for="dob"> Date of Birth</label>
+                <input type="date" name="date" id="dob">
+                </li> <br>
+                <li>
+                    <label for="Address">Address</label>
+                    <input type="text" name="Adresss" id="Adresss" placeholder="42 yaba road"><br>
+                </li><br>
+                <li>
+                    <p>Reasons For Contacting Me</p>
+                    <input type="checkbox" name="reasons" id="reasons 1">
+                    <label for="reasons 1">To get more infor about what i do </label><br>
+    
+                    <input type="checkbox" name="courses" id="Reasons2">
+                    <label for="html">I want to learn how to work on html </label><br>
+    
+                    <input type="checkbox" name="courses" id="js">
+                    <label for="js">Javascript</label><br>
+    
+                    <input type="checkbox" name="courses" id="py">
+                    <label for="py">python</label><br>
+
+                    <input type="checkbox" name="courses" id="py">
+                    <label for="py">CSS</label>
+                    
+                </li>
+                <li>
+                    <br>
+                    UPLOAD DOCUMENT<br>
+                    <input type="file" name="fileupload" id="upload" accept=".DOC">
+            
+                </li>
+               </ul> 
+               <input type="submit" value="submit" class="I"> 
+    </fieldset>
+        
+        
+        
+</form>
+
+
+       
+
+
+</body>
+</html>
